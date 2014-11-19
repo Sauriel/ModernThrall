@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <!-- ========================================================== -->
+    <!-- Servlets -->
+    <!-- ========================================================== -->
+
+    <servlet>
+        <servlet-name>LogIn</servlet-name>
+        <servlet-class>Tools.LogIn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogIn</servlet-name>
+        <url-pattern>/servlet/Tools.LogIn</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>Tools.LogOut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/servlet/Tools.LogOut</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>Tools.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/servlet/Tools.Register</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EnterNewProducts</servlet-name>
+        <servlet-class>Tools.EnterNewProducts</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EnterNewProducts</servlet-name>
+        <url-pattern>/servlet/Tools.EnterNewProducts</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BasketManager</servlet-name>
+        <servlet-class>Tools.BasketManager</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BasketManager</servlet-name>
+        <url-pattern>/servlet/Tools.BasketManager</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Order</servlet-name>
+        <servlet-class>Tools.Order</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Order</servlet-name>
+        <url-pattern>/servlet/Tools.Order</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetHome</servlet-name>
+        <servlet-class>Tools.GetHome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetHome</servlet-name>
+        <url-pattern>/servlet/Tools.GetHome</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>OrderExec</servlet-name>
+        <servlet-class>Tools.OrderExec</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderExec</servlet-name>
+        <url-pattern>/servlet/Tools.OrderExec</url-pattern>
+    </servlet-mapping>
+
+</web-app>
